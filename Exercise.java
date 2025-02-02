@@ -59,7 +59,7 @@ public class Exercise {
 
     @Override
     public String toString(){
-        return this.name + " + " + this.sets + " + " + this.reps;
+        return  "Exercise: " + this.name + ", sets: " + this.sets + ", reps: " + this.reps;
     }
 
 }
